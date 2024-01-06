@@ -10,7 +10,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3693388017492438974, guid: 1cc663431063a374086bde3eeed677c2, type: 3}
       propertyPath: m_Name
-      value: Chunk Variant
+      value: Chunk1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3693388017492438974, guid: 1cc663431063a374086bde3eeed677c2, type: 3}
+      propertyPath: m_TagString
+      value: Road
       objectReference: {fileID: 0}
     - target: {fileID: 7337776364923509603, guid: 1cc663431063a374086bde3eeed677c2, type: 3}
       propertyPath: m_LocalPosition.z
