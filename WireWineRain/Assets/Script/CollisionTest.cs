@@ -8,13 +8,13 @@ public class CollisionTest : MonoBehaviour
 
     void OnTriggerEnter(Collider other){
     inside = true;
-    Debug.Log("inside");
+    //Debug.Log("inside");
 
     }
 
     void OnTriggerExit(Collider other){
         inside = false;
-    Debug.Log("outside");
+    //Debug.Log("outside");
     
     }
 }

@@ -1,3 +1,4 @@
+using System.Diagnostics.Eventing.Reader;
 using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
@@ -7,6 +8,7 @@ public class PlayerHealth : MonoBehaviour
     public float damageRate = 1f;
     private float nextDamageTime;
     private bool canTakeDamage = true;
+    private bool isUmbrellaOpen;
 
     void Start()
     {
@@ -16,11 +18,11 @@ public class PlayerHealth : MonoBehaviour
 
 void Update()
 {
-    // Toggle the ability to take damage on left-click
-    if (Input.GetMouseButtonDown(0))
+        // Toggle the ability to take damage on left-click
+    if (isUmbrellaOpen)
     {
         canTakeDamage = !canTakeDamage;
-        Debug.Log("Left mouse button pressed. Can take damage: " + canTakeDamage);
+        Debug.Log("Umbrella open. Can take damage: " + canTakeDamage);
     }
 
     // Assume the CollisionTest script is attached to the player GameObject
@@ -41,7 +43,7 @@ void TakeDamage(int damageAmount)
     currentHealth -= damageAmount;
 
     // Add your logic for handling the health reduction, like checking for death, updating UI, etc.
-    Debug.Log("Player took damage! Current health: " + currentHealth);
+    // Debug.Log("Player took damage! Current health: " + currentHealth);
 
     // Example: If health drops to 0, destroy the player
     if (currentHealth <= 0)
@@ -70,5 +72,11 @@ void TakeDamage(int damageAmount)
         {
             Die(); // Destroy the player when colliding with "EndHouse"
         }
+    }
+
+    public void OpenUmbrella(bool ChangeState)
+    {
+        isUmbrellaOpen = ChangeState;
+        Debug.Log("Umbrella state changing");
     }
 }
