@@ -117,9 +117,10 @@ GameObject:
   - component: {fileID: 5257369309452699640}
   - component: {fileID: 8342113784310900625}
   - component: {fileID: 3621889172597022580}
+  - component: {fileID: 3408271739504325992}
   m_Layer: 0
   m_Name: Building
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -204,12 +205,24 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 5.0708437, y: 1, z: 1}
+  m_Center: {x: 2.0354218, y: 0, z: 0}
+--- !u!114 &3408271739504325992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984793843986872422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa2af4217966e6645a09c72104648800, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3693388017492438974
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,7 +232,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8416747846925999982}
-  - component: {fileID: 2977452669805731780}
   m_Layer: 0
   m_Name: Chunk0
   m_TagString: Road
@@ -244,24 +256,3 @@ Transform:
   - {fileID: 7337776364923509603}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &2977452669805731780
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3693388017492438974}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 4.959394, y: 5.8817315, z: 20.49688}
-  m_Center: {x: -0.019469976, y: 2.4408658, z: 0.018907547}
