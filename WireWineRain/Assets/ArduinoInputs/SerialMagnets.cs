@@ -4,17 +4,14 @@ using UnityEngine;
 using System;
 using System.IO.Ports;
 using System.Threading;
+using UnityEditor.VersionControl;
 
 public class SerialMagnets : MonoBehaviour
 {
     Thread IOThread = new Thread(DataThread);
-    private static SerialPort sp;
-    private static string incomingMsg = "";
-    private static string outgoingMsg = "";
-
-    //SerialPort data_stream;
-    //public string Com_Port = "COM3";
-    //public int Baud_Rate = 115200;
+    public static SerialPort sp;
+    static string incomingMsg = "";
+    public static string outgoingMsg = "";
 
     private static void DataThread()
     {
@@ -23,9 +20,9 @@ public class SerialMagnets : MonoBehaviour
 
         while(true)
         {
-            if(outgoingMsg != "")
+            if (outgoingMsg != "")
             {
-                sp.Write(outgoingMsg);
+                sp.WriteLine(outgoingMsg);
                 outgoingMsg = "";
             }
 
@@ -67,5 +64,15 @@ public class SerialMagnets : MonoBehaviour
         {
 
         }
+    }
+
+    public void SendMessageToArduino(string Message)
+    {
+        //if(Message != "")
+        //{
+        //    sp.WriteLine(Message);
+        //    Message = "";
+           
+        //}
     }
 }
