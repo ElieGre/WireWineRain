@@ -50,11 +50,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3656315790328330811, guid: 0da76c1e36e15114592cf44c15b3494a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.29
+      value: -4.44
       objectReference: {fileID: 0}
     - target: {fileID: 7217405129064713958, guid: 0da76c1e36e15114592cf44c15b3494a, type: 3}
       propertyPath: m_Name
-      value: Chunk Variant 1
+      value: Chunk2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

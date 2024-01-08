@@ -3,49 +3,72 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour
 {
     public int maxHealth = 100;
-    public int currentHealth = 100;
-    public float damageRate = 0.3f;
+    public int currentHealth;
+    public float damageRate = 1f;
     private float nextDamageTime;
+    private bool canTakeDamage = true;
 
     void Start()
     {
-        // Set the next damage time initially
-        nextDamageTime = Time.time + damageRate;
+        currentHealth = maxHealth;
+        nextDamageTime = Time.time;
     }
 
-    void Update()
+void Update()
+{
+    // Toggle the ability to take damage on left-click
+    if (Input.GetMouseButtonDown(0))
     {
-        // Check if it's time to apply damage
-        if (Time.time >= nextDamageTime)
-        {
-            // Check if the player is outside the building
-            if (!GetComponent<CollisionTest>().inside)
-            {
-                // Apply damage
-                TakeDamage(1);
-
-                // Set the next damage time
-                nextDamageTime = Time.time + damageRate;
-            }
-        }
+        canTakeDamage = !canTakeDamage;
+        Debug.Log("Left mouse button pressed. Can take damage: " + canTakeDamage);
     }
 
-    void TakeDamage(int damageAmount)
+    // Assume the CollisionTest script is attached to the player GameObject
+    CollisionTest collisionTest = GetComponent<CollisionTest>();
+
+    // Check if both canTakeDamage and inside are true before applying damage
+    if ((canTakeDamage && !collisionTest.inside) || (!canTakeDamage && collisionTest.inside))
     {
-        currentHealth -= damageAmount;
-
-        // Handle health-related logic (e.g., update UI, check for death)
-        Debug.Log("Player took damage! Current health: " + currentHealth);
-
-        if (currentHealth <= 0)
-        {
-            Die();
-        }
+        // Apply damage
+        TakeDamage(1);
     }
+
+    // Other parts of the Update method...
+}
+
+void TakeDamage(int damageAmount)
+{
+    currentHealth -= damageAmount;
+
+    // Add your logic for handling the health reduction, like checking for death, updating UI, etc.
+    Debug.Log("Player took damage! Current health: " + currentHealth);
+
+    // Example: If health drops to 0, destroy the player
+    if (currentHealth <= 0)
+    {
+        Die();
+    }
+}
+
 
     void Die()
     {
-        // Handle player death logic
+        // Add your logic for player death
         Debug.Log("Player has died!");
+
+        // Check if the player object exists before attempting to destroy it
+        if (gameObject != null)
+        {
+            Destroy(gameObject); // Destroy the player GameObject
+        }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        // Check if the player collided with an object tagged "EndHouse"
+        if (other.CompareTag("EndHouse"))
+        {
+            Die(); // Destroy the player when colliding with "EndHouse"
+        }
     }
 }
