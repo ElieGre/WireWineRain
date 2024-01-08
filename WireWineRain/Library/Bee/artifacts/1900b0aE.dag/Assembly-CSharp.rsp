@@ -360,6 +360,7 @@
 "Assets/Script/CollisionTest.cs"
 "Assets/Script/PlayerHealth.cs"
 "Assets/Script/RoadSpawn.cs"
+"Assets/Script/Umbrella.cs"
 -langversion:9.0
 
 /deterministic

@@ -10,7 +10,7 @@ public class SerialMagnets : MonoBehaviour
 {
     Thread IOThread = new Thread(DataThread);
     public static SerialPort sp;
-    static string incomingMsg = "";
+    public static string incomingMsg = "";
     public static string outgoingMsg = "";
     public static bool isUmbrellaOpen;
     [SerializeField] PlayerHealth ph;
@@ -28,7 +28,7 @@ public class SerialMagnets : MonoBehaviour
             }
 
             incomingMsg = sp.ReadExisting();
-
+            
             Thread.Sleep(200);
         }
     }
@@ -57,38 +57,16 @@ public class SerialMagnets : MonoBehaviour
     {
         try
         {
-            string inmsg = incomingMsg;
-            CheckInput(inmsg.Substring(0));
             if (incomingMsg != "")
             {
                 
-                Debug.Log(incomingMsg);
+                //Debug.Log(incomingMsg);
                 
             }
         }
         catch
         {
 
-        }
-    }
-    
-    void CheckInput(string Message)
-    {
-        if (Message == "0")
-        {
-            Debug.Log("Button Pressed");
-        }
-        if (Message == "1")
-        {
-            isUmbrellaOpen = false;
-            ph.OpenUmbrella(false);
-            Debug.Log("Closing Umbrella");
-        }
-        if (Message == "2")
-        {
-            isUmbrellaOpen = true;
-            ph.OpenUmbrella(true);
-            Debug.Log("opening Umbrella");
         }
     }
     public void SendMessageToArduino(string Message)

@@ -3,12 +3,14 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
+    [SerializeField] Umbrella umbrella;
+
     public int maxHealth = 100;
     public int currentHealth;
     public float damageRate = 1f;
     private float nextDamageTime;
     private bool canTakeDamage = true;
-    private bool isUmbrellaOpen;
+    
 
     void Start()
     {
@@ -19,10 +21,14 @@ public class PlayerHealth : MonoBehaviour
 void Update()
 {
         // Toggle the ability to take damage on left-click
-    if (isUmbrellaOpen)
+    if (umbrella.GetIsUmbrellaOpen())
     {
-        canTakeDamage = !canTakeDamage;
-        Debug.Log("Umbrella open. Can take damage: " + canTakeDamage);
+        canTakeDamage = false;
+        //Debug.Log("Umbrella open. Can take damage: " + canTakeDamage);
+    }
+    else
+    {
+        canTakeDamage = true;
     }
 
     // Assume the CollisionTest script is attached to the player GameObject
@@ -74,9 +80,5 @@ void TakeDamage(int damageAmount)
         }
     }
 
-    public void OpenUmbrella(bool ChangeState)
-    {
-        isUmbrellaOpen = ChangeState;
-        Debug.Log("Umbrella state changing");
-    }
+    
 }

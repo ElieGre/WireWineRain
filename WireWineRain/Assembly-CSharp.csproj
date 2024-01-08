@@ -63,6 +63,7 @@
     <Compile Include="Assets\Script\CollisionTest.cs" />
     <Compile Include="Assets\Script\CharacterMovement.cs" />
     <Compile Include="Assets\Script\PlayerHealth.cs" />
+    <Compile Include="Assets\Script\Umbrella.cs" />
     <Compile Include="Assets\Script\RoadSpawn.cs" />
     <Compile Include="Assets\Script\BuildingTriggerManager.cs" />
     <Compile Include="Assets\ArduinoInputs\SerialMagnets.cs" />
