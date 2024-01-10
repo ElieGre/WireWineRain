@@ -1,0 +1,1604 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 32555 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\Unity Editor\2022.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+D:/WireWineRain/WireWineRain
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+53823
+Successfully changed project path to: D:/WireWineRain/WireWineRain
+D:/WireWineRain/WireWineRain
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23584] Host "[IP] 192.168.1.240 [Port] 0 [Flags] 2 [Guid] 2880417813 [EditorId] 2880417813 [Version] 1048832 [Id] WindowsEditor(7,KplrePC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23584] Host "[IP] 192.168.1.240 [Port] 0 [Flags] 2 [Guid] 2880417813 [EditorId] 2880417813 [Version] 1048832 [Id] WindowsEditor(7,KplrePC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 10.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path E:/Unity/Unity Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/WireWineRain/WireWineRain/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   NVIDIA
+    VRAM:     5981 MB
+    Driver:   31.0.15.4633
+Initialize mono
+Mono path[0] = 'E:/Unity/Unity Editor/2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/Unity Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/Unity Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/Unity Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004934 seconds.
+- Loaded All Assemblies, in  0.323 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.249 seconds
+Domain Reload Profiling: 572ms
+	BeginReloadAssembly (104ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (103ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (115ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (249ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (193ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (132ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\WireWineRain\WireWineRain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\WireWineRain\WireWineRain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.600 seconds
+Refreshing native plugins compatible for Editor in 2.88 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.507 seconds
+Domain Reload Profiling: 1107ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (391ms)
+		LoadAssemblies (295ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (177ms)
+			TypeCache.Refresh (156ms)
+				TypeCache.ScanAssembly (141ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (507ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (370ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (284ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3594 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (60.7 KB). Loaded Objects now: 4106.
+Memory consumption went from 137.0 MB to 136.9 MB.
+Total: 3.003100 ms (FindLiveObjects: 0.393500 ms CreateObjectMapping: 0.109800 ms MarkObjects: 2.354800 ms  DeleteObjects: 0.143300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2267098.807416 seconds.
+  path: Assets/Prefabs/Chunk5.prefab
+  artifactKey: Guid(2cb22debf8d98f841a49c0d3e2760f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk5.prefab using Guid(2cb22debf8d98f841a49c0d3e2760f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0d7a84d260ee20c8260b3f2209b7c7') in 0.116103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 162
+========================================================================
+Received Import Request.
+  Time since last request: 11.701119 seconds.
+  path: Assets/Prefabs/Chunk5.prefab
+  artifactKey: Guid(2cb22debf8d98f841a49c0d3e2760f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk5.prefab using Guid(2cb22debf8d98f841a49c0d3e2760f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1327ea90dbde92353c009f5e80d8d3c8') in 0.039709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 162
+========================================================================
+Received Import Request.
+  Time since last request: 5.604968 seconds.
+  path: Assets/Prefabs/Chunk5.prefab
+  artifactKey: Guid(2cb22debf8d98f841a49c0d3e2760f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk5.prefab using Guid(2cb22debf8d98f841a49c0d3e2760f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a824d374348b3e5943ffadd8b298db93') in 0.032090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 162
+========================================================================
+Received Import Request.
+  Time since last request: 288.228883 seconds.
+  path: Assets/Prefabs/Chunk3.prefab
+  artifactKey: Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk3.prefab using Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef2ae8683a8809adf41f71a725b9ec7') in 0.048073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3078a7ff806cb791bfa8c12acf2e0889') in 0.031316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 122
+========================================================================
+Received Import Request.
+  Time since last request: 6.415436 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa0d31618c3e07cfa3fa04eb438b4d8') in 0.019018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cada29ed57d9f0c6d43cc457f6f1a0f') in 0.011888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 101
+========================================================================
+Received Import Request.
+  Time since last request: 13.611563 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9cee84de285f894d522b585c39b80c') in 0.013937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bab0ecb58c6b52fa44d53202fbd7e65') in 0.025709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 101
+========================================================================
+Received Import Request.
+  Time since last request: 7.606947 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3a46fe77ec4469b2b870efca51693c') in 0.041860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86a2df60c4c49751d979be33f3e69d9') in 0.013744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 121
+========================================================================
+Received Import Request.
+  Time since last request: 4.768803 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f85c843d6677a14ca813538380063c') in 0.027410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 11.053800 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9407e4936d666761e678d46e7a8ce098') in 0.030126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8144f329ddfd96a3c03002733d6b24ae') in 0.013863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 121
+========================================================================
+Received Import Request.
+  Time since last request: 13.695930 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2574f6c0433de2a7ec27171c7c80c2') in 0.018114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 1.191507 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12742fcdb9c5b9f36be8c2e01e4bcdd') in 0.034225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012ec7e8c80220975e5e2809a0b6f372') in 0.012969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 121
+========================================================================
+Received Import Request.
+  Time since last request: 11.220440 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fdf380c0bd5130a73c731469a2a69c5') in 0.037322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 17.837289 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0cf55e3b3451d519aa727aa236f2f5') in 0.075590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316afa3881a1319a28c3abf024ae7258') in 0.070824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 121
+========================================================================
+Received Import Request.
+  Time since last request: 1.468299 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ec5678cff6b24184dc10e2490ae63b') in 0.094110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 0.910582 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb267348e0aa7a82f26e5061da015f6') in 0.015454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df45f0b78469cc4b2fa1dcc1c44a4c8') in 0.087754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 121
+========================================================================
+Received Import Request.
+  Time since last request: 0.902773 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f94a937803bb3aed7533965e1d2b070') in 0.017677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed66615c387e228dc766e2b2a3dcf58b') in 0.018162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 121
+========================================================================
+Received Import Request.
+  Time since last request: 6.800696 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de7daa570e0597e1c3b9630a97887e1') in 0.101851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 7.343759 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc3750fef7f0307a61898b9c23eec54') in 0.063125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 14.364303 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed941eb920d2b8a041996c8edf570548') in 0.008454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bb9bf0f6fadbc13db6014b590cbbe0') in 0.009140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 121
+========================================================================
+Received Import Request.
+  Time since last request: 8.791633 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe947180982ce684e709f6d7b8ce6af') in 0.043341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 13.014244 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189753d58cf51bbdbde0c4b4e16d486c') in 0.035851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 14.862911 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6c7c3a361e8aed5246d9661df49672') in 0.021044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 22.124112 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe67799b16a0a4b58705ec4d98658b1') in 0.123911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 14.326680 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1147badb423c28010d1fafe057fc5f') in 0.262028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 7.174351 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08da3be716dfa4798d33ca616feb177') in 0.012120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 1.798239 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920d9e9b5bb751a90e718cafcb92ee4c') in 0.012107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 25.631736 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556eaab1cb18b044eff54ef686984d94') in 0.013373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 10.645745 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef17e9b586a65821bd7e353451074c4') in 0.007194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 4.406290 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3215d7c7ff85e06fb6f2271d39606b29') in 0.059929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 7.987056 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712cf626f36ecf6a2ddb332e72da1d07') in 0.014113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 4.821117 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506a26d788d0957e3b5c141919a738a4') in 0.013517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 12.460030 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9583094b4a2baaef36212677a01a7305') in 0.015495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 2.201178 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9bfcf5336d3a962fd91760305f7b041') in 0.015298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 2.803213 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9ab311696aac76707c031b83cce1a2') in 0.013980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 29.175587 seconds.
+  path: Assets/Prefabs/Chunk5.prefab
+  artifactKey: Guid(2cb22debf8d98f841a49c0d3e2760f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk5.prefab using Guid(2cb22debf8d98f841a49c0d3e2760f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03517f145c32ac19e6553dfbd9592de') in 0.007993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 3.204612 seconds.
+  path: Assets/Prefabs/Chunk5.prefab
+  artifactKey: Guid(2cb22debf8d98f841a49c0d3e2760f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk5.prefab using Guid(2cb22debf8d98f841a49c0d3e2760f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adac0673554324600418eb2a729c578c') in 0.016274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 1.188287 seconds.
+  path: Assets/Prefabs/Chunk5.prefab
+  artifactKey: Guid(2cb22debf8d98f841a49c0d3e2760f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk5.prefab using Guid(2cb22debf8d98f841a49c0d3e2760f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4108852444732e3c9924126b633a0c24') in 0.010860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 19.559969 seconds.
+  path: Assets/Prefabs/Chunk3.prefab
+  artifactKey: Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk3.prefab using Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de10b9485af34e817b34a8f3e7b38653') in 0.042386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 14.334921 seconds.
+  path: Assets/Prefabs/Chunk3.prefab
+  artifactKey: Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk3.prefab using Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c32a7c84f7c80d97e345ca56577d9d') in 0.033658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 48.536996 seconds.
+  path: Assets/Prefabs/Chunk0.prefab
+  artifactKey: Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk0.prefab using Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb35d356fef923e208cf2d446f591c72') in 0.023227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 15.669026 seconds.
+  path: Assets/Prefabs/Chunk0.prefab
+  artifactKey: Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk0.prefab using Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fdff810d7428bf3a0baab9e247f8139') in 0.018602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 6.486913 seconds.
+  path: Assets/Prefabs/Chunk0.prefab
+  artifactKey: Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk0.prefab using Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94562e49231fe74651b6a781627cdc0') in 0.013374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 3.026747 seconds.
+  path: Assets/Prefabs/Chunk0.prefab
+  artifactKey: Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk0.prefab using Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b37d6f17b04e1cccd9cf06733c79b28') in 0.013465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 1.592037 seconds.
+  path: Assets/Prefabs/Chunk0.prefab
+  artifactKey: Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk0.prefab using Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af47893b1212189fff58fc0d0bca141') in 0.014653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 9.034038 seconds.
+  path: Assets/Prefabs/Chunk0.prefab
+  artifactKey: Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk0.prefab using Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006c23e156aff31f6389b705709e27b6') in 0.008590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Chunk2.prefab
+  artifactKey: Guid(80e1faf2297a87d4e9ffaedb71ed287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk2.prefab using Guid(80e1faf2297a87d4e9ffaedb71ed287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefc052075159413b97319ed198b25f7') in 0.013846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 94
+========================================================================
+Received Import Request.
+  Time since last request: 4.009211 seconds.
+  path: Assets/Prefabs/Chunk0.prefab
+  artifactKey: Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk0.prefab using Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1f49e7f914a568986b1c5b5bf69ea5') in 0.021177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 6.068872 seconds.
+  path: Assets/Prefabs/Chunk0.prefab
+  artifactKey: Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk0.prefab using Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429da9a55204a714139a771c848a005d') in 0.023337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 1.796405 seconds.
+  path: Assets/Prefabs/Chunk0.prefab
+  artifactKey: Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk0.prefab using Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2dca2156f2ed9159160cfc5775afe3f') in 0.030662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Chunk2.prefab
+  artifactKey: Guid(80e1faf2297a87d4e9ffaedb71ed287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk2.prefab using Guid(80e1faf2297a87d4e9ffaedb71ed287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0ab4aef6663941257c5ed34bd33831') in 0.014752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 94
+========================================================================
+Received Import Request.
+  Time since last request: 15.672013 seconds.
+  path: Assets/Prefabs/Chunk0.prefab
+  artifactKey: Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk0.prefab using Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe807113c7b62191598679e5438110e7') in 0.071533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 11.812526 seconds.
+  path: Assets/Prefabs/Chunk0.prefab
+  artifactKey: Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk0.prefab using Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8f591589c51ff4c2fda2634bc0522c') in 0.023852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/Chunk2.prefab
+  artifactKey: Guid(80e1faf2297a87d4e9ffaedb71ed287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk2.prefab using Guid(80e1faf2297a87d4e9ffaedb71ed287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e924302eb48642ea0e72041c95a279a9') in 0.008824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 94
+========================================================================
+Received Import Request.
+  Time since last request: 3.201018 seconds.
+  path: Assets/Prefabs/Chunk0.prefab
+  artifactKey: Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk0.prefab using Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8002015382245d610d1d5ee90ea99d73') in 0.019979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 1.389211 seconds.
+  path: Assets/Prefabs/Chunk0.prefab
+  artifactKey: Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk0.prefab using Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2b35caabda1ef5b40b162d11579bb5') in 0.013956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/Chunk2.prefab
+  artifactKey: Guid(80e1faf2297a87d4e9ffaedb71ed287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk2.prefab using Guid(80e1faf2297a87d4e9ffaedb71ed287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35dc63ad3ac2ce3afa46da6c8d5a47fb') in 0.017497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 94
+========================================================================
+Received Import Request.
+  Time since last request: 5.200623 seconds.
+  path: Assets/Prefabs/Chunk0.prefab
+  artifactKey: Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk0.prefab using Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94dc6f9f9d42af1e4dd0808725d5cb7') in 0.015980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/Chunk2.prefab
+  artifactKey: Guid(80e1faf2297a87d4e9ffaedb71ed287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk2.prefab using Guid(80e1faf2297a87d4e9ffaedb71ed287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25d22222a176c8996a861cf660d8677') in 0.019644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 94
+========================================================================
+Received Import Request.
+  Time since last request: 6.206067 seconds.
+  path: Assets/Prefabs/Chunk0.prefab
+  artifactKey: Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk0.prefab using Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5f5c244e87e5fdb81e17b5e1a2bb6f') in 0.014004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefabs/Chunk2.prefab
+  artifactKey: Guid(80e1faf2297a87d4e9ffaedb71ed287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk2.prefab using Guid(80e1faf2297a87d4e9ffaedb71ed287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '062467a06161d8fc3847fd1bb294388b') in 0.014485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 94
+========================================================================
+Received Import Request.
+  Time since last request: 7.017193 seconds.
+  path: Assets/Prefabs/Chunk0.prefab
+  artifactKey: Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk0.prefab using Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52697e14c0f44c704087b353c9bdf91') in 0.015552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/Chunk2.prefab
+  artifactKey: Guid(80e1faf2297a87d4e9ffaedb71ed287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk2.prefab using Guid(80e1faf2297a87d4e9ffaedb71ed287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672fb243db9b2f2c7333445de0d7b43b') in 0.026791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 94
+========================================================================
+Received Import Request.
+  Time since last request: 5.004059 seconds.
+  path: Assets/Prefabs/Chunk0.prefab
+  artifactKey: Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk0.prefab using Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9f07de05ebb4565dea3edbd56ff938') in 0.027426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/Chunk2.prefab
+  artifactKey: Guid(80e1faf2297a87d4e9ffaedb71ed287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk2.prefab using Guid(80e1faf2297a87d4e9ffaedb71ed287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a62f85cb6411febdb462e94c7a99fc0') in 0.015603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 94
+========================================================================
+Received Import Request.
+  Time since last request: 1.362632 seconds.
+  path: Assets/Prefabs/Chunk0.prefab
+  artifactKey: Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk0.prefab using Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e36322b6c551ded00e05c9ba8f8d2f9') in 0.074364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 23.886957 seconds.
+  path: Assets/Prefabs/Chunk1.prefab
+  artifactKey: Guid(0da76c1e36e15114592cf44c15b3494a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk1.prefab using Guid(0da76c1e36e15114592cf44c15b3494a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870a6a4f81139bc7bc3fc7ab7d0f11af') in 0.031165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 4.991385 seconds.
+  path: Assets/Prefabs/Chunk1.prefab
+  artifactKey: Guid(0da76c1e36e15114592cf44c15b3494a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk1.prefab using Guid(0da76c1e36e15114592cf44c15b3494a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b44d4fd900bed6d5bc6647cb6bac97') in 0.006348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 48.700621 seconds.
+  path: Assets/Prefabs/Chunk0.prefab
+  artifactKey: Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk0.prefab using Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238e166c89b8f8e6955335d3ee74938c') in 0.014046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 7.980980 seconds.
+  path: Assets/Prefabs/Chunk0.prefab
+  artifactKey: Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk0.prefab using Guid(1cc663431063a374086bde3eeed677c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53d7e0c4087d2e207c49011e451456c') in 0.019600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 167.048155 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abca241a2a0632ba79d572a62b2dc117') in 0.014179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 10.895659 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a7f613763d4a923a4b5ba8965b3e94') in 0.013770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 10.252337 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b3911c976ad96b5b32605a92b24d7a') in 0.016129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 3.597107 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f4ef4e8824009f9d2076d1307a0ece') in 0.014470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 22.717999 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08175f342324541a6fdcb75ebc5761e8') in 0.014400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 12.848382 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4090777d36b1a101dde769d25047cd7e') in 0.014905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 24.352918 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd00755db2985f394f064eee1be72db87') in 0.018921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 38.909957 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8d8d01c17eb08e4053e505103f6966') in 0.013634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 4.824381 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3456d8af8a9bff8dcb512bf5383fb47') in 0.018594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 9.445691 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59246afdd0ea4c97445765fb118716ef') in 0.013803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 1.693242 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a246e521029f3ad1635eb104b446d14') in 0.057343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 7.801924 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621eac7291acac7994d0e6c7efd31154') in 0.014811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 1.595383 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd540279db84db0a45e1596c57bd536') in 0.010418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 1.801670 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37826fd0440852e168e04d449f00b5d7') in 0.022559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\WireWineRain\WireWineRain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\WireWineRain\WireWineRain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.387 seconds
+Refreshing native plugins compatible for Editor in 3.19 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.973 seconds
+Domain Reload Profiling: 1360ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (177ms)
+		LoadAssemblies (243ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (973ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (415ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (300ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 6.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3573 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (32.2 KB). Loaded Objects now: 4119.
+Memory consumption went from 137.4 MB to 137.4 MB.
+Total: 10.166500 ms (FindLiveObjects: 0.562400 ms CreateObjectMapping: 0.264800 ms MarkObjects: 9.247700 ms  DeleteObjects: 0.090300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 122.825236 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eebb0b48867a6fd6e4a328691d656c4f') in 0.090537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 198
+========================================================================
+Received Import Request.
+  Time since last request: 10.651287 seconds.
+  path: Assets/Prefabs/Chunk1.prefab
+  artifactKey: Guid(0da76c1e36e15114592cf44c15b3494a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk1.prefab using Guid(0da76c1e36e15114592cf44c15b3494a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b88d989fdcf56df35bb82ca46b2d89') in 0.018263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 4.762686 seconds.
+  path: Assets/Prefabs/Chunk1.prefab
+  artifactKey: Guid(0da76c1e36e15114592cf44c15b3494a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk1.prefab using Guid(0da76c1e36e15114592cf44c15b3494a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30030c5d43bedfc104a2afbe4d79f3a0') in 0.017918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 1.597910 seconds.
+  path: Assets/Prefabs/Chunk1.prefab
+  artifactKey: Guid(0da76c1e36e15114592cf44c15b3494a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk1.prefab using Guid(0da76c1e36e15114592cf44c15b3494a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3897a66933d98a91d1cd196cf3733e32') in 0.016616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 1.792999 seconds.
+  path: Assets/Prefabs/Chunk1.prefab
+  artifactKey: Guid(0da76c1e36e15114592cf44c15b3494a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk1.prefab using Guid(0da76c1e36e15114592cf44c15b3494a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87557d60013b73a83a6c335a5714d7fe') in 0.025382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 10.357392 seconds.
+  path: Assets/Prefabs/Chunk3.prefab
+  artifactKey: Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk3.prefab using Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70439da13cefb375dc471d29d4627f6e') in 0.027634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 3.787223 seconds.
+  path: Assets/Prefabs/Chunk3.prefab
+  artifactKey: Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk3.prefab using Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e287be9c1f07680064677857f3a178') in 0.015004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\WireWineRain\WireWineRain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\WireWineRain\WireWineRain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.383 seconds
+Refreshing native plugins compatible for Editor in 2.98 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.855 seconds
+Domain Reload Profiling: 1239ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (191ms)
+		LoadAssemblies (250ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (856ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (359ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (262ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 5.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3573 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (32.3 KB). Loaded Objects now: 4122.
+Memory consumption went from 137.4 MB to 137.4 MB.
+Total: 3.553200 ms (FindLiveObjects: 0.362000 ms CreateObjectMapping: 0.146000 ms MarkObjects: 2.960600 ms  DeleteObjects: 0.083100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 49.462474 seconds.
+  path: Assets/Prefabs/Chunk3.prefab
+  artifactKey: Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk3.prefab using Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c3d1ab3753f59f6dc7d8966d50413b') in 0.092181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 4.487277 seconds.
+  path: Assets/Prefabs/Chunk3.prefab
+  artifactKey: Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk3.prefab using Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133b8ff5f86ee4578bbb26c1ee74dcbf') in 0.020629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\WireWineRain\WireWineRain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\WireWineRain\WireWineRain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.400 seconds
+Refreshing native plugins compatible for Editor in 3.13 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.919 seconds
+Domain Reload Profiling: 1319ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (188ms)
+		LoadAssemblies (253ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (919ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (397ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (292ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 5.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3573 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (32.4 KB). Loaded Objects now: 4125.
+Memory consumption went from 137.4 MB to 137.4 MB.
+Total: 7.094400 ms (FindLiveObjects: 0.599800 ms CreateObjectMapping: 0.374600 ms MarkObjects: 6.020100 ms  DeleteObjects: 0.098400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 28.690849 seconds.
+  path: Assets/Prefabs/Chunk3.prefab
+  artifactKey: Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk3.prefab using Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36a999e4b87d0ddd375d28c3cc78552') in 0.089927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 3.947306 seconds.
+  path: Assets/Prefabs/Chunk3.prefab
+  artifactKey: Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk3.prefab using Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b295e4266ff53bc2e5559888fa6150') in 0.013148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 3.615848 seconds.
+  path: Assets/Prefabs/Chunk3.prefab
+  artifactKey: Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk3.prefab using Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a450d72f56cffefa74f1e1e6092c33c') in 0.015411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 2.205370 seconds.
+  path: Assets/Prefabs/Chunk3.prefab
+  artifactKey: Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk3.prefab using Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24392cc57243e96891f541b7dc11b401') in 0.014500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 9.054740 seconds.
+  path: Assets/Prefabs/Chunk3.prefab
+  artifactKey: Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk3.prefab using Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11eb331608524282478788cefebafc93') in 0.013819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 19.966080 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013485cc4989a2dab5eea6e82ad1ca3a') in 0.014774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 2.384602 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cda257af506a2a4cbd6f8e32d89b2e') in 0.023242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 32.787103 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f7e68ea33de5051bc6dfe3e396f92b') in 0.016588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 7.670550 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9e3b66cba397f0d99b6549c7e43bcc') in 0.016292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 198
+========================================================================
+Received Import Request.
+  Time since last request: 2.588786 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300f2cd5f3c8a79670189102204d1a1b') in 0.021741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 198
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\WireWineRain\WireWineRain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\WireWineRain\WireWineRain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.406 seconds
+Refreshing native plugins compatible for Editor in 4.22 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.940 seconds
+Domain Reload Profiling: 1345ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (194ms)
+		LoadAssemblies (258ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (940ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (410ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (303ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 6.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3573 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (32.3 KB). Loaded Objects now: 4128.
+Memory consumption went from 137.4 MB to 137.4 MB.
+Total: 5.648700 ms (FindLiveObjects: 0.559700 ms CreateObjectMapping: 0.242800 ms MarkObjects: 4.756600 ms  DeleteObjects: 0.088300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 52.965758 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f94f6d643dcc3597c6010f0f49eebfb') in 0.098135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 198
+========================================================================
+Received Import Request.
+  Time since last request: 1.655363 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60451d3f6c5c0a98803a94eb63829679') in 0.029824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 198
+========================================================================
+Received Import Request.
+  Time since last request: 10.475840 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad15d3187d046658cf574f2bf7bede3') in 0.016012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 198
+========================================================================
+Received Import Request.
+  Time since last request: 10.217890 seconds.
+  path: Assets/Prefabs/Chunk6.prefab
+  artifactKey: Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk6.prefab using Guid(c65cace96eebbe849a6ffbe4fa70d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce688f7c4684f23598ee9fc3f1643f75') in 0.028115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 198
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\WireWineRain\WireWineRain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\WireWineRain\WireWineRain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.387 seconds
+Refreshing native plugins compatible for Editor in 3.88 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.970 seconds
+Domain Reload Profiling: 1357ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (187ms)
+		LoadAssemblies (244ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (970ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (422ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (312ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 5.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3573 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (32.3 KB). Loaded Objects now: 4131.
+Memory consumption went from 137.4 MB to 137.4 MB.
+Total: 6.588300 ms (FindLiveObjects: 0.676700 ms CreateObjectMapping: 0.316300 ms MarkObjects: 5.492100 ms  DeleteObjects: 0.101500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 40.540101 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f9236bae5852f59b376985e52ba652') in 0.080008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 4.686653 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65d9bc7fedf92c4a81fa7887813261f') in 0.035309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 3.593533 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5fd07a3476ebafe4f843df9e4adcd2d') in 0.014825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 1.194935 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a11e72f3c19a1b3370fb718c162c391') in 0.022777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 1.585979 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e219088ccade82541081b6b27387d0') in 0.015291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 11.122398 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b159bc4b95b1aafc39fb6c02c8a6ac') in 0.013503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 1.598013 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6394c20d1a5c56ba599c2003bae2e70') in 0.014731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 8.039549 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6053c92946a39ad2c52f88be1059369') in 0.014608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 2.608113 seconds.
+  path: Assets/Prefabs/Chunk4.prefab
+  artifactKey: Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk4.prefab using Guid(9c176ddf5e594924e9dbdb8c64ba26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a503107c906829f6cdc3794bb49791') in 0.015523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 31.171987 seconds.
+  path: Assets/Prefabs/Chunk2.prefab
+  artifactKey: Guid(80e1faf2297a87d4e9ffaedb71ed287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk2.prefab using Guid(80e1faf2297a87d4e9ffaedb71ed287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b8f5504ec3ecb3413a3b688b58fd54') in 0.015213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 10.052660 seconds.
+  path: Assets/Prefabs/Chunk2.prefab
+  artifactKey: Guid(80e1faf2297a87d4e9ffaedb71ed287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk2.prefab using Guid(80e1faf2297a87d4e9ffaedb71ed287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1330c51bde944375c23381747c9079e6') in 0.015935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 2.196815 seconds.
+  path: Assets/Prefabs/Chunk2.prefab
+  artifactKey: Guid(80e1faf2297a87d4e9ffaedb71ed287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk2.prefab using Guid(80e1faf2297a87d4e9ffaedb71ed287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334e2d07c79921e4a3e6d325ca30e4f1') in 0.052351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 10.266771 seconds.
+  path: Assets/Prefabs/Chunk2.prefab
+  artifactKey: Guid(80e1faf2297a87d4e9ffaedb71ed287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk2.prefab using Guid(80e1faf2297a87d4e9ffaedb71ed287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4e72ce2885d212a18a840e4ce70d6d') in 0.013754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 4.818744 seconds.
+  path: Assets/Prefabs/Chunk2.prefab
+  artifactKey: Guid(80e1faf2297a87d4e9ffaedb71ed287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk2.prefab using Guid(80e1faf2297a87d4e9ffaedb71ed287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4061cad8b622733590b2b3b39a9068') in 0.013370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 2.199216 seconds.
+  path: Assets/Prefabs/Chunk2.prefab
+  artifactKey: Guid(80e1faf2297a87d4e9ffaedb71ed287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk2.prefab using Guid(80e1faf2297a87d4e9ffaedb71ed287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71114f0381292018a2b3534ee44f6b2') in 0.016026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 11.058048 seconds.
+  path: Assets/Prefabs/Chunk3.prefab
+  artifactKey: Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk3.prefab using Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f83a4a8f0d54333daa45f82a46eaaae') in 0.014080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 1.597263 seconds.
+  path: Assets/Prefabs/Chunk3.prefab
+  artifactKey: Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk3.prefab using Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62457c9a8793560ba6aa18bb6e4f9aa5') in 0.017334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 1.791688 seconds.
+  path: Assets/Prefabs/Chunk3.prefab
+  artifactKey: Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk3.prefab using Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f70713355ba915b77488659a679839c') in 0.023805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 1.588383 seconds.
+  path: Assets/Prefabs/Chunk3.prefab
+  artifactKey: Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk3.prefab using Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574525781d4cbd29be2b33722be7874b') in 0.015348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 1.195973 seconds.
+  path: Assets/Prefabs/Chunk3.prefab
+  artifactKey: Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk3.prefab using Guid(989381ff9c98fbc4c83d3a234d9ab3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83ee9d86886e74d4762a32764b3733f') in 0.013768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
