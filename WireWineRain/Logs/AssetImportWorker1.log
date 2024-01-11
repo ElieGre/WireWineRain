@@ -1,23 +1,29 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 32555 MB
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 32544 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-E:\Unity\Unity Editor\2022.3.7f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\Unity 2022.3.7f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-D:/WireWineRain/WireWineRain
+E:/Repositories/WireWineRain/WireWineRain
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
+<<<<<<< Updated upstream
 54838
 Successfully changed project path to: D:/WireWineRain/WireWineRain
 D:/WireWineRain/WireWineRain
+=======
+56436
+Successfully changed project path to: E:/Repositories/WireWineRain/WireWineRain
+E:/Repositories/WireWineRain/WireWineRain
+>>>>>>> Stashed changes
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,23 +55,32 @@ D:/WireWineRain/WireWineRain
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< Updated upstream
 Player connection [21472] Host "[IP] 192.168.1.240 [Port] 0 [Flags] 2 [Guid] 3726312997 [EditorId] 3726312997 [Version] 1048832 [Id] WindowsEditor(7,KplrePC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [21472] Host "[IP] 192.168.1.240 [Port] 0 [Flags] 2 [Guid] 3726312997 [EditorId] 3726312997 [Version] 1048832 [Id] WindowsEditor(7,KplrePC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Refreshing native plugins compatible for Editor in 15.22 ms, found 3 plugins.
+=======
+Player connection [9652] Host "[IP] 192.168.0.53 [Port] 0 [Flags] 2 [Guid] 2129286474 [EditorId] 2129286474 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ENK21AG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9652] Host "[IP] 192.168.0.53 [Port] 0 [Flags] 2 [Guid] 2129286474 [EditorId] 2129286474 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ENK21AG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 10.04 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
-[Subsystems] Discovering subsystems at path E:/Unity/Unity Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/WireWineRain/WireWineRain/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/Unity 2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Repositories/WireWineRain/WireWineRain/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
     Vendor:   NVIDIA
-    VRAM:     5981 MB
-    Driver:   31.0.15.4633
+    VRAM:     7964 MB
+    Driver:   31.0.15.4601
 Initialize mono
+<<<<<<< Updated upstream
 Mono path[0] = 'E:/Unity/Unity Editor/2022.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/Unity Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Unity/Unity Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
@@ -75,16 +90,36 @@ Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/Unity Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Registered in 0.005455 seconds.
 - Loaded All Assemblies, in  0.465 seconds
+=======
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/Unity 2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/Unity 2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/Unity 2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/Unity 2022.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/Unity 2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009109 seconds.
+- Loaded All Assemblies, in  0.320 seconds
+>>>>>>> Stashed changes
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Finished resetting the current domain, in  0.364 seconds
 Domain Reload Profiling: 829ms
 	BeginReloadAssembly (144ms)
+=======
+- Finished resetting the current domain, in  0.221 seconds
+Domain Reload Profiling: 540ms
+	BeginReloadAssembly (101ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 	RebuildCommonClasses (46ms)
 	RebuildNativeTypeToScriptingClass (13ms)
 	initialDomainReloadingComplete (65ms)
@@ -107,6 +142,30 @@ Domain Reload Profiling: 829ms
 			BeforeProcessingInitializeOnLoad (3ms)
 			ProcessInitializeOnLoadAttributes (202ms)
 			ProcessInitializeOnLoadMethodAttributes (63ms)
+=======
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (123ms)
+		LoadAssemblies (99ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (121ms)
+			TypeCache.Refresh (120ms)
+				TypeCache.ScanAssembly (109ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (222ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (172ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (112ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+>>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -114,16 +173,25 @@ Domain Reload Profiling: 829ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+<<<<<<< Updated upstream
 Symbol file LoadedFromMemory doesn't match image D:\WireWineRain\WireWineRain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\WireWineRain\WireWineRain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 - Loaded All Assemblies, in  0.883 seconds
 Refreshing native plugins compatible for Editor in 5.79 ms, found 3 plugins.
+=======
+Symbol file LoadedFromMemory doesn't match image E:\Repositories\WireWineRain\WireWineRain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Repositories\WireWineRain\WireWineRain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.548 seconds
+Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Finished resetting the current domain, in  0.800 seconds
 Domain Reload Profiling: 1683ms
 	BeginReloadAssembly (167ms)
@@ -283,10 +351,16 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.988 seconds
 Domain Reload Profiling: 1494ms
 	BeginReloadAssembly (162ms)
+=======
+- Finished resetting the current domain, in  0.494 seconds
+Domain Reload Profiling: 1040ms
+	BeginReloadAssembly (128ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 		CreateAndSetChildDomain (38ms)
 	RebuildCommonClasses (41ms)
 	RebuildNativeTypeToScriptingClass (16ms)
@@ -1105,12 +1179,21 @@ Domain Reload Profiling: 1460ms
 	initialDomainReloadingComplete (25ms)
 	LoadAllAssembliesAndSetupDomain (208ms)
 		LoadAssemblies (268ms)
+=======
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (349ms)
+		LoadAssemblies (267ms)
+>>>>>>> Stashed changes
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (11ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (138ms)
+				TypeCache.ScanAssembly (125ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
 			ResolveRequiredComponents (3ms)
+<<<<<<< Updated upstream
 	FinalizeReload (1035ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
@@ -2318,13 +2401,17 @@ Domain Reload Profiling: 1153ms
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (4ms)
 	FinalizeReload (797ms)
+=======
+	FinalizeReload (494ms)
+>>>>>>> Stashed changes
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (324ms)
+		SetupLoadedEditorAssemblies (367ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
+			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
+<<<<<<< Updated upstream
 			BeforeProcessingInitializeOnLoad (53ms)
 			ProcessInitializeOnLoadAttributes (238ms)
 			ProcessInitializeOnLoadMethodAttributes (24ms)
@@ -2338,10 +2425,26 @@ Unloading 3576 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 31 unused Assets / (33.5 KB). Loaded Objects now: 4218.
 Memory consumption went from 137.9 MB to 137.9 MB.
 Total: 3.154700 ms (FindLiveObjects: 0.307000 ms CreateObjectMapping: 0.109400 ms MarkObjects: 2.671100 ms  DeleteObjects: 0.066300 ms)
+=======
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (272ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3594 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (59.2 KB). Loaded Objects now: 4054.
+Memory consumption went from 129.0 MB to 128.9 MB.
+Total: 2.586400 ms (FindLiveObjects: 0.163200 ms CreateObjectMapping: 0.059000 ms MarkObjects: 2.260700 ms  DeleteObjects: 0.102700 ms)
+>>>>>>> Stashed changes
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
@@ -2354,6 +2457,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< Updated upstream
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\WireWineRain\WireWineRain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -2501,14 +2605,52 @@ Received Import Request.
   path: Assets/sprite/Sprite-2.png
   artifactKey: Guid(95f75dd45f1c36a4fa4b3be89cf93ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/sprite/Sprite-2.png using Guid(95f75dd45f1c36a4fa4b3be89cf93ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d94ec63c540b19384f4ef7d50d4182') in 0.031126 seconds
+=======
+Received Import Request.
+  Time since last request: 10667.397509 seconds.
+  path: Assets/RainFall.prefab
+  artifactKey: Guid(ffbcf8cffc68ba94eaf5dc1e78bc8081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainFall.prefab using Guid(ffbcf8cffc68ba94eaf5dc1e78bc8081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1f28b9212f97358bed07d7e91a0f59') in 0.091231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 792.422931 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868ae7279cb8681e901fb13a12c8cb7e') in 0.058023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/sprite/Sprite-2.png
+  artifactKey: Guid(95f75dd45f1c36a4fa4b3be89cf93ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Sprite-2.png using Guid(95f75dd45f1c36a4fa4b3be89cf93ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207430717f081ef5921c3ca7348ba83b') in 0.016888 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 0.000043 seconds.
   path: Assets/sprite/Sprite-0003.png
   artifactKey: Guid(c6105baba99fae944b213e93b929a436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/sprite/Sprite-0003.png using Guid(c6105baba99fae944b213e93b929a436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc019c194de687038bd9f41b41936ccf') in 0.054672 seconds
+=======
+  Time since last request: 0.000022 seconds.
+  path: Assets/sprite/Sprite-0003.png
+  artifactKey: Guid(c6105baba99fae944b213e93b929a436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Sprite-0003.png using Guid(c6105baba99fae944b213e93b929a436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990676840f903991b0d3f80ab0585b91') in 0.016096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sprite/Sprite-0002.png
+  artifactKey: Guid(541d1f1c16a6a3e48a5f0e12b2d0c8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Sprite-0002.png using Guid(541d1f1c16a6a3e48a5f0e12b2d0c8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c526f197c95a5dc16a84bdd26bb11bbf') in 0.015710 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
