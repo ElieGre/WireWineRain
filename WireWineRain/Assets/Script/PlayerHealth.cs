@@ -10,6 +10,7 @@ public class PlayerHealth : MonoBehaviour
     public float damageRate = 1f;
     private float nextDamageTime;
     private bool canTakeDamage = true;
+    [SerializeField] public GameObject UI;
     
 
     void Start()
@@ -55,12 +56,14 @@ void TakeDamage(int damageAmount)
     if (currentHealth <= 0)
     {
         Die();
+            
     }
 }
 
 
     void Die()
     {
+        UI.SetActive(true);
         // Add your logic for player death
         Debug.Log("Player has died!");
 

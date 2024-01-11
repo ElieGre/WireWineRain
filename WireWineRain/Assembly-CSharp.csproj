@@ -65,6 +65,7 @@
     <Compile Include="Assets\Script\PlayerHealth.cs" />
     <Compile Include="Assets\Script\Umbrella.cs" />
     <Compile Include="Assets\Script\RoadSpawn.cs" />
+    <Compile Include="Assets\8K Skybox Pack Free\Example Scenes\Script\RotateCamera.cs" />
     <Compile Include="Assets\Script\BuildingTriggerManager.cs" />
     <Compile Include="Assets\ArduinoInputs\SerialMagnets.cs" />
   </ItemGroup>
@@ -72,6 +73,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\8K Skybox Pack Free\ReadMe.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
