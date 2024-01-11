@@ -6,15 +6,12 @@ public class RoadSpawner : MonoBehaviour
     public GameObject[] objectsToSpawn;
     public float spawnDistance = 20f;
     public float initialSpawnDelay = 1f;
-    public float minSpawnDelay = 0.4f; // Minimum spawn delay
-    public float spawnDelayDecreaseRate = 0.2f; // Amount to decrease the spawn delay
+    public float minSpawnDelay = 0.4f; 
+    public float spawnDelayDecreaseRate = 0.2f; 
 
     void Start()
     {
-        // Set the initial position of the spawner to (0, 0, 40)
         transform.position = new Vector3(0f, 0f, 40f);
-
-        // Start spawning objects
         StartCoroutine(SpawnObjects());
     }
 
@@ -26,7 +23,7 @@ public class RoadSpawner : MonoBehaviour
         while (true)
         {
             // Choose a random object from the array
-            GameObject objectPrefab = objectsToSpawn[Random.Range(0, objectsToSpawn.Length)];
+            GameObject objectPrefab = ChooseRandomPrefab();
 
             // Instantiate the chosen object at the specified position
             GameObject newSpawnedObject = Instantiate(objectPrefab, transform.position, Quaternion.identity);
@@ -48,5 +45,12 @@ public class RoadSpawner : MonoBehaviour
                 timeSinceLastDecrease = 0f;
             }
         }
+    }
+
+    GameObject ChooseRandomPrefab()
+    {
+        // Choose a random index, giving more weight to a specific prefab
+        int randomIndex = Random.Range(5, objectsToSpawn.Length + 2); // +2 for example, you can adjust this value
+        return objectsToSpawn[randomIndex % objectsToSpawn.Length];
     }
 }

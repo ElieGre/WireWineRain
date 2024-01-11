@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
-    [SerializeField]private float moveSpeed = 5f;
-    [SerializeField]private float speedIncrement = 1f;
+    [SerializeField]public float moveSpeed = 5f;
+    [SerializeField]public float speedIncrement = 1f;
     private float timeSinceLastIncrement = 0f;
 
     void Update()

@@ -1,23 +1,26 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class GameUI : MonoBehaviour
 {
-    PlayerHealth player;
-    [SerializeField] GameObject UI;
-    Umbrella umbrella;
-    // Start is called before the first frame update
+    [SerializeField] GameObject endGameMenu;
+    
     void Start()
     {
-        
+        // Deactivate the end game menu at the beginning
+        endGameMenu.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ShowEndGameMenu()
     {
-
+        // Show the end game menu
+        endGameMenu.SetActive(true);
     }
 
+    public void ReloadScene()
+    {
+        // Reload the scene
+        SceneManager.LoadScene("SampleScene");
+    }
 }

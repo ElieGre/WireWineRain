@@ -4,7 +4,9 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
+    [SerializeField] GameObject timmy;
     [SerializeField] Umbrella umbrella;
+    public CharacterMovement timmySpeed;
     public int maxHealth = 10000;
     public int currentHealth;
     private bool canTakeDamage = true;
@@ -42,11 +44,14 @@ public class PlayerHealth : MonoBehaviour
             TakeDamage(1);
         }
 
-        // Check if the UI button was clicked and the scene should be reloaded
-        if (shouldReloadScene)
+        // Check if the UI is active and the player has died
+        if (UI.activeSelf && shouldReloadScene)
         {
-            // Reload the scene only when the player has died and the UI button is clicked
-            SceneManager.LoadScene("SampleScene");
+            // Reload the scene when the 'P' key is pressed
+            if (Input.GetKeyDown(KeyCode.P))
+            {
+                SceneManager.LoadScene("SampleScene");
+            }
         }
     }
 
@@ -73,7 +78,9 @@ public class PlayerHealth : MonoBehaviour
     {
         // Add your logic for player death
         Debug.Log("Player has died!");
-
+        timmySpeed.moveSpeed = 0f;
+        timmySpeed.speedIncrement = 0f;
+        Destroy(timmy);
         // Set the flag to indicate that the scene should be reloaded
         shouldReloadScene = true;
 
@@ -88,11 +95,5 @@ public class PlayerHealth : MonoBehaviour
         {
             Die(); // Destroy the player when colliding with "EndHouse"
         }
-    }
-
-    // This function is called when the UI button is clicked
-    public void OnReloadButtonClick()
-    {
-        shouldReloadScene = true;
     }
 }

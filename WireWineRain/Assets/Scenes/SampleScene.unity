@@ -407,7 +407,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5908664819155094105, guid: fbebef16414da7543afd773bb0a8d303, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2999.4
+      value: 2000
       objectReference: {fileID: 0}
     - target: {fileID: 5908664819155094105, guid: fbebef16414da7543afd773bb0a8d303, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1738,7 +1738,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 7
-  speedIncrement: 2
+  speedIncrement: 1
 --- !u!65 &845941159
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1772,7 +1772,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ff9d8c89c300914cb88994cb2121cf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timmy: {fileID: 3922323180451173282}
   umbrella: {fileID: 6633046477881466613}
+  timmySpeed: {fileID: 845941157}
   maxHealth: 7000
   currentHealth: 7000
   UI: {fileID: 453477515}
@@ -3206,7 +3208,7 @@ Transform:
   m_GameObject: {fileID: 1878034768}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.303, y: 3, z: 3000}
+  m_LocalPosition: {x: -0.303, y: 3, z: 2000}
   m_LocalScale: {x: 15.711483, y: 9.484044, z: 15.001528}
   m_ConstrainProportionsScale: 0
   m_Children: []
