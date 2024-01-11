@@ -1,77 +1,84 @@
-using System.Diagnostics.Eventing.Reader;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
     [SerializeField] Umbrella umbrella;
-
-    public int maxHealth = 100;
+    public int maxHealth = 10000;
     public int currentHealth;
-    public float damageRate = 1f;
-    private float nextDamageTime;
     private bool canTakeDamage = true;
-    [SerializeField] public GameObject UI;
-    
+    [SerializeField] GameObject UI;
+    [SerializeField] Slider healthBarSlider;
+
+    // Flag to track whether the scene should be reloaded
+    private bool shouldReloadScene = false;
 
     void Start()
     {
         currentHealth = maxHealth;
-        nextDamageTime = Time.time;
+        UpdateHealthBar();
     }
 
-void Update()
-{
+    void Update()
+    {
         // Toggle the ability to take damage on left-click
-    if (umbrella.GetIsUmbrellaOpen())
-    {
-        canTakeDamage = false;
-        //Debug.Log("Umbrella open. Can take damage: " + canTakeDamage);
+        if (umbrella.GetIsUmbrellaOpen())
+        {
+            canTakeDamage = false;
+        }
+        else
+        {
+            canTakeDamage = true;
+        }
+
+        // Assume the CollisionTest script is attached to the player GameObject
+        CollisionTest collisionTest = GetComponent<CollisionTest>();
+
+        // Check if both canTakeDamage and inside are true before applying damage
+        if ((canTakeDamage && !collisionTest.inside) || (!canTakeDamage && collisionTest.inside))
+        {
+            // Apply damage
+            TakeDamage(1);
+        }
+
+        // Check if the UI button was clicked and the scene should be reloaded
+        if (shouldReloadScene)
+        {
+            // Reload the scene only when the player has died and the UI button is clicked
+            SceneManager.LoadScene("SampleScene");
+        }
     }
-    else
+
+    void TakeDamage(int damageAmount)
     {
-        canTakeDamage = true;
+        currentHealth -= damageAmount;
+
+        // Example: If health drops to 0, call Die() to handle player death
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+
+        UpdateHealthBar();
     }
 
-    // Assume the CollisionTest script is attached to the player GameObject
-    CollisionTest collisionTest = GetComponent<CollisionTest>();
-
-    // Check if both canTakeDamage and inside are true before applying damage
-    if ((canTakeDamage && !collisionTest.inside) || (!canTakeDamage && collisionTest.inside))
+    void UpdateHealthBar()
     {
-        // Apply damage
-        TakeDamage(1);
+        // Update the Slider value based on the player's health
+        healthBarSlider.value = (float)currentHealth / maxHealth;
     }
-
-    // Other parts of the Update method...
-}
-
-void TakeDamage(int damageAmount)
-{
-    currentHealth -= damageAmount;
-
-    // Add your logic for handling the health reduction, like checking for death, updating UI, etc.
-    // Debug.Log("Player took damage! Current health: " + currentHealth);
-
-    // Example: If health drops to 0, destroy the player
-    if (currentHealth <= 0)
-    {
-        Die();
-            
-    }
-}
-
 
     void Die()
     {
-        UI.SetActive(true);
         // Add your logic for player death
         Debug.Log("Player has died!");
 
-        // Check if the player object exists before attempting to destroy it
-        if (gameObject != null)
-        {
-            Destroy(gameObject); // Destroy the player GameObject
-        }
+        // Set the flag to indicate that the scene should be reloaded
+        shouldReloadScene = true;
+
+        // Activate UI after the player has died
+        UI.SetActive(true);
     }
 
     void OnTriggerEnter(Collider other)
@@ -83,5 +90,9 @@ void TakeDamage(int damageAmount)
         }
     }
 
-    
+    // This function is called when the UI button is clicked
+    public void OnReloadButtonClick()
+    {
+        shouldReloadScene = true;
+    }
 }
