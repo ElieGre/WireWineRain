@@ -1,0 +1,332 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32681 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+D:/WireWineRain/WireWineRain
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+49647
+Successfully changed project path to: D:/WireWineRain/WireWineRain
+D:/WireWineRain/WireWineRain
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8984] Host "[IP] 192.168.0.122 [Port] 0 [Flags] 2 [Guid] 3360222826 [EditorId] 3360222826 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2TQOVH1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8984] Host "[IP] 192.168.0.122 [Port] 0 [Flags] 2 [Guid] 3360222826 [EditorId] 3360222826 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2TQOVH1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 13.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/WireWineRain/WireWineRain/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 5600 XT (ID=0x731f)
+    Vendor:   ATI
+    VRAM:     6103 MB
+    Driver:   31.0.23013.1023
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011057 seconds.
+- Loaded All Assemblies, in  0.390 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.248 seconds
+Domain Reload Profiling: 635ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (157ms)
+		LoadAssemblies (112ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (134ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (248ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (190ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (127ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file data-0000028122E8C0E0 doesn't match image D:\WireWineRain\WireWineRain\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\WireWineRain\WireWineRain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\WireWineRain\WireWineRain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.674 seconds
+Refreshing native plugins compatible for Editor in 3.44 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.572 seconds
+Domain Reload Profiling: 1243ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (433ms)
+		LoadAssemblies (333ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (191ms)
+			TypeCache.Refresh (167ms)
+				TypeCache.ScanAssembly (151ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (572ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (424ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (302ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 4.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3596 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (60.7 KB). Loaded Objects now: 4110.
+Memory consumption went from 137.6 MB to 137.6 MB.
+Total: 3.346400 ms (FindLiveObjects: 0.368900 ms CreateObjectMapping: 0.097500 ms MarkObjects: 2.722000 ms  DeleteObjects: 0.156900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 916577.877050 seconds.
+  path: Assets/textures/timmiys texture/Materials/textured timmy_collar_AlbedoTransparency.mat
+  artifactKey: Guid(77cfb6003105dfe4685b911310e7b426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/Materials/textured timmy_collar_AlbedoTransparency.mat using Guid(77cfb6003105dfe4685b911310e7b426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6871cc1dfa762bfbeca333a3e2224e0') in 0.135455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/textures/timmiys texture/Materials/textured timmy_legs_AlbedoTransparency.mat
+  artifactKey: Guid(1e04e292782e9344191bde6b6abf9f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/Materials/textured timmy_legs_AlbedoTransparency.mat using Guid(1e04e292782e9344191bde6b6abf9f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef3cf421009e68b6734bbabd93ac24f') in 0.015651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/textures/timmiys texture/Materials/textured timmy_hat1_AlbedoTransparency.mat
+  artifactKey: Guid(7d0a69e621c1dbe42b47009b4da3814e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/Materials/textured timmy_hat1_AlbedoTransparency.mat using Guid(7d0a69e621c1dbe42b47009b4da3814e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0cb94a7d558d2508f120262ab512b39') in 0.014636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/textures/timmiys texture/Materials/textured timmy_joints_AlbedoTransparency.mat
+  artifactKey: Guid(09c92fdf9e9da7e419b37368bfcc4799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/Materials/textured timmy_joints_AlbedoTransparency.mat using Guid(09c92fdf9e9da7e419b37368bfcc4799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5464a529f32c9360a24740973e850fd') in 0.013467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/textures/timmiys texture/Materials/textured timmy_sock_AlbedoTransparency.mat
+  artifactKey: Guid(4319ee8307453df4f96fdb41417ad691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/Materials/textured timmy_sock_AlbedoTransparency.mat using Guid(4319ee8307453df4f96fdb41417ad691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc9677ec0736d47b36859d700ee3bed') in 0.013728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/textures/timmiys texture/Materials/textured timmy_pants_AlbedoTransparency.mat
+  artifactKey: Guid(e371bf5242eb7e74bb20e6de41649e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/Materials/textured timmy_pants_AlbedoTransparency.mat using Guid(e371bf5242eb7e74bb20e6de41649e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6077465a2e3a1282505d1d3873c15a6') in 0.015704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 39.034731 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_arm2_Metallic.png
+  artifactKey: Guid(0a24270011e500349b3ea27f5bad0aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_arm2_Metallic.png using Guid(0a24270011e500349b3ea27f5bad0aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeeb044a32bb433a324f79f1bd473b9b') in 0.306428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_shoe_Height.png
+  artifactKey: Guid(e5a5f13bad68b5c468387487ed8da18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_shoe_Height.png using Guid(e5a5f13bad68b5c468387487ed8da18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53cba7fbb146843e71f3e0596c497e47') in 0.039527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_hat1_BaseColor.png
+  artifactKey: Guid(90757ca514a9fa240a49aadccc5a3a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_hat1_BaseColor.png using Guid(90757ca514a9fa240a49aadccc5a3a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6e55b1d82deeed1cd9a06b232cc45a') in 0.037473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_neck1_Roughness.png
+  artifactKey: Guid(e2d947d193f197c4ca0dd07d348b111a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_neck1_Roughness.png using Guid(e2d947d193f197c4ca0dd07d348b111a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1550a77a92bc9a027f0f369f4d217978') in 0.025707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_pants_BaseColor.png
+  artifactKey: Guid(10c6950039b385f4a9e7104a4fd51f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_pants_BaseColor.png using Guid(10c6950039b385f4a9e7104a4fd51f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6114635e9e6608b4f43570044dbd5f09') in 0.028231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_collar_Height.png
+  artifactKey: Guid(01951b17e366b214cb4cd98cbf9c5686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_collar_Height.png using Guid(01951b17e366b214cb4cd98cbf9c5686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a920a1bc479561143ab0a59140e4faf') in 0.027793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_hat1_Height.png
+  artifactKey: Guid(e43cc66928d190a40aeae1b8665512b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_hat1_Height.png using Guid(e43cc66928d190a40aeae1b8665512b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294c0c984f889899d392ca7e22fcfc04') in 0.024365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_sock_BaseColor.png
+  artifactKey: Guid(053ae77ca4375244aa11b827a4d445cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_sock_BaseColor.png using Guid(053ae77ca4375244aa11b827a4d445cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a12c6a2884861524106a50214f3959') in 0.015785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_skeleton_BaseColor.png
+  artifactKey: Guid(555f2ec1805ca214687d5d1b77bc6735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_skeleton_BaseColor.png using Guid(555f2ec1805ca214687d5d1b77bc6735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8251af536c0397006e48454a1f7809') in 0.020149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_pants_Metallic.png
+  artifactKey: Guid(faf5a184356b01944aac59793ae16a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_pants_Metallic.png using Guid(faf5a184356b01944aac59793ae16a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d858a582a0f5a3f5032ebca2d68bf4') in 0.025577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_hand_Roughness.png
+  artifactKey: Guid(bc3212b227053c144bde3a71d9778153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_hand_Roughness.png using Guid(bc3212b227053c144bde3a71d9778153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7171770090e0baad3d110d9467842a9') in 0.020936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_belt_Normal.png
+  artifactKey: Guid(c4ce853a70b68184c8e2d417219a35b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_belt_Normal.png using Guid(c4ce853a70b68184c8e2d417219a35b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6954586df83a2adde63916868c3c0d19') in 0.023800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

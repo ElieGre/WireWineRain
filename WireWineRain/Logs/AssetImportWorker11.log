@@ -1,0 +1,846 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32681 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker11
+-projectPath
+D:/WireWineRain/WireWineRain
+-logFile
+Logs/AssetImportWorker11.log
+-srvPort
+49647
+Successfully changed project path to: D:/WireWineRain/WireWineRain
+D:/WireWineRain/WireWineRain
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11644] Host "[IP] 192.168.0.122 [Port] 0 [Flags] 2 [Guid] 1660028924 [EditorId] 1660028924 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2TQOVH1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [11644] Host "[IP] 192.168.0.122 [Port] 0 [Flags] 2 [Guid] 1660028924 [EditorId] 1660028924 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2TQOVH1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 10.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/WireWineRain/WireWineRain/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 5600 XT (ID=0x731f)
+    Vendor:   ATI
+    VRAM:     6103 MB
+    Driver:   31.0.23013.1023
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008311 seconds.
+- Loaded All Assemblies, in  0.373 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.261 seconds
+Domain Reload Profiling: 631ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (114ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (144ms)
+			TypeCache.Refresh (142ms)
+				TypeCache.ScanAssembly (126ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (261ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (201ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (137ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file data-000002301FCACAA0 doesn't match image D:\WireWineRain\WireWineRain\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\WireWineRain\WireWineRain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\WireWineRain\WireWineRain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.684 seconds
+Refreshing native plugins compatible for Editor in 3.06 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.560 seconds
+Domain Reload Profiling: 1242ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (437ms)
+		LoadAssemblies (353ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (186ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (148ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (561ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (407ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (295ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 3.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3596 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (61.2 KB). Loaded Objects now: 4110.
+Memory consumption went from 137.6 MB to 137.5 MB.
+Total: 3.366700 ms (FindLiveObjects: 0.379300 ms CreateObjectMapping: 0.089700 ms MarkObjects: 2.742200 ms  DeleteObjects: 0.154700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 916617.130163 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_arm2_BaseColor.png
+  artifactKey: Guid(1a22d015d4a462041a31560d4c8f4250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_arm2_BaseColor.png using Guid(1a22d015d4a462041a31560d4c8f4250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a855a3902b7adf2b7e414aa1bf98649e') in 0.305975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_chest_Metallic.png
+  artifactKey: Guid(7b83ad95f95e4f044a9301eef43088b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_chest_Metallic.png using Guid(7b83ad95f95e4f044a9301eef43088b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf6d9c342a83dcf515c52db4753657c') in 0.040225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_torso_Normal.png
+  artifactKey: Guid(749d34d40b65caa458da3af9b553ef5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_torso_Normal.png using Guid(749d34d40b65caa458da3af9b553ef5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb18ad49027c2e912764b64879767a04') in 0.036294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_skeleton_Normal.png
+  artifactKey: Guid(6137ac8cf79a12948b045b806d29fc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_skeleton_Normal.png using Guid(6137ac8cf79a12948b045b806d29fc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72438a6ab4cc53c54055b11cf874f1f') in 0.025832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_collar_BaseColor.png
+  artifactKey: Guid(b9f4ffcb876c85547a06a7f0c35c2be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_collar_BaseColor.png using Guid(b9f4ffcb876c85547a06a7f0c35c2be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ea381e456bd2bd261f5c8e6a73df45') in 0.027485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_collar_Roughness.png
+  artifactKey: Guid(58ee681e9ec01fe4c8f366195a26f2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_collar_Roughness.png using Guid(58ee681e9ec01fe4c8f366195a26f2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e58e0a6d24251af3f6e191b68b7aed') in 0.027172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_torso_Metallic.png
+  artifactKey: Guid(28e73e8732f47964e8bf13f6b2f515fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_torso_Metallic.png using Guid(28e73e8732f47964e8bf13f6b2f515fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6cf98c73d13e9d1b6fa1ba4bcaec6d') in 0.024570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_sock_Metallic.png
+  artifactKey: Guid(b70b1d104a130a643ac590c78d49c75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_sock_Metallic.png using Guid(b70b1d104a130a643ac590c78d49c75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54af7901f1b143c6fcb235cfb8499a7') in 0.015545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_chest_Normal.png
+  artifactKey: Guid(fa785ecbed009824ba65c5418317fc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_chest_Normal.png using Guid(fa785ecbed009824ba65c5418317fc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f7c1a73beb5a8a734a7dbbdfac6574') in 0.019692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_torso_Roughness.png
+  artifactKey: Guid(b95f72feb46021b4bb11e2df194e035b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_torso_Roughness.png using Guid(b95f72feb46021b4bb11e2df194e035b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e0211c38708b1332e8e5e305707cd5') in 0.023086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_hand_BaseColor.png
+  artifactKey: Guid(bf9f4d81fe9bc7d449a21652e4119961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_hand_BaseColor.png using Guid(bf9f4d81fe9bc7d449a21652e4119961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cfb5ea9def43b99d4dee29f4192d21c') in 0.023190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_neck1_Height.png
+  artifactKey: Guid(fa658f31f41365d4eaedf55b34a53208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_neck1_Height.png using Guid(fa658f31f41365d4eaedf55b34a53208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c69a09ab593dfc4dceb1d24cd3c48c') in 0.018981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_hand_Metallic.png
+  artifactKey: Guid(5dcb12c843ee85742af9c93738f21e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_hand_Metallic.png using Guid(5dcb12c843ee85742af9c93738f21e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd28059632bd85bdfd48f17b6d8aaf82') in 0.021971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 14.545708 seconds.
+  path: Assets/textures/timmiys texture/Materials/textured timmy_arm2_BaseColor.mat
+  artifactKey: Guid(3121f53bfb0a0bd4681a31bc57695122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/Materials/textured timmy_arm2_BaseColor.mat using Guid(3121f53bfb0a0bd4681a31bc57695122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564aba68fdae74020c3449428be86167') in 0.067903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 73.142776 seconds.
+  path: Assets/textures/timmiys texture/New Material.mat
+  artifactKey: Guid(94292e0715724424b8cdecf9f07c7f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/New Material.mat using Guid(94292e0715724424b8cdecf9f07c7f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa2dca204603ca58ab14d65c6768e47') in 0.011719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 21.408912 seconds.
+  path: Assets/textures/timmiys texture/Materials/textured timmy_belt_BaseColor.mat
+  artifactKey: Guid(758fec131df236f4baa283e6642df5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/Materials/textured timmy_belt_BaseColor.mat using Guid(758fec131df236f4baa283e6642df5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e908a52fccc3506e44d90c27572f2b7') in 0.013163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 113.254345 seconds.
+  path: Assets/textures/timmiys texture/Materials/textured timmy_chest_BaseColor.mat
+  artifactKey: Guid(a437ad26e097b22439daa4489754ecee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/Materials/textured timmy_chest_BaseColor.mat using Guid(a437ad26e097b22439daa4489754ecee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19fbf04e10637ce35d6a3a891206e31b') in 0.013634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 116.991852 seconds.
+  path: Assets/textures/timmiys texture/Materials/textured timmy_collar_BaseColor.mat
+  artifactKey: Guid(887e2d096418fc1408d7ac17fe93f686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/Materials/textured timmy_collar_BaseColor.mat using Guid(887e2d096418fc1408d7ac17fe93f686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21faf4e55f741eae204cf8e84e1a74f6') in 0.015017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 35.216651 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_collar_Normal.png
+  artifactKey: Guid(adf9e6bab66333b459aaa9e3424686f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_collar_Normal.png using Guid(adf9e6bab66333b459aaa9e3424686f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999d77affc36b59378d1daed8a508111') in 0.027099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 43.203884 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_arm2_Normal.png
+  artifactKey: Guid(2b875ef86407d6b41a0468d636a3c3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_arm2_Normal.png using Guid(2b875ef86407d6b41a0468d636a3c3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15757f5a2dd74a5f0b0a1486fbdbefd0') in 0.020651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_chest_Normal.png
+  artifactKey: Guid(fa785ecbed009824ba65c5418317fc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_chest_Normal.png using Guid(fa785ecbed009824ba65c5418317fc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068f20bb417e8102dc2bca483b06852f') in 0.020546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.096089 seconds.
+  path: Assets/textures/timmiys texture/Materials/textured timmy_face_BaseColor.mat
+  artifactKey: Guid(d739425757f8bf6438c586e7cc43bfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/Materials/textured timmy_face_BaseColor.mat using Guid(d739425757f8bf6438c586e7cc43bfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d8bd13c08e85f28ea3266cd03cb78e') in 0.012903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 29.072042 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_face_Normal.png
+  artifactKey: Guid(64d4c7c2cb4b4ca499babdcad839d285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_face_Normal.png using Guid(64d4c7c2cb4b4ca499babdcad839d285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9924ae114de481f037f8544206253710') in 0.017961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 176.411420 seconds.
+  path: Assets/textures/timmiys texture/Materials/textured timmy_hand_BaseColor.mat
+  artifactKey: Guid(ade9f3bba01339f448ab5acc359460c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/Materials/textured timmy_hand_BaseColor.mat using Guid(ade9f3bba01339f448ab5acc359460c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df470893f7a821cff4021c5eec50a574') in 0.016526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 30.126914 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_hand_Normal.png
+  artifactKey: Guid(53c8dbe79167bec419624c7e595b99c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_hand_Normal.png using Guid(53c8dbe79167bec419624c7e595b99c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1bcdf1b3d84170201c7e94e7f35285') in 0.016924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 48.502670 seconds.
+  path: Assets/textures/timmiys texture/Materials/textured timmy_hat1_BaseColor.mat
+  artifactKey: Guid(f37333456aad8074692e12cc56bb4c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/Materials/textured timmy_hat1_BaseColor.mat using Guid(f37333456aad8074692e12cc56bb4c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7104eb1c5df93a03f31673ea28eef5f') in 0.013040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 22.727070 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_hat1_Normal.png
+  artifactKey: Guid(a11d0fa4ebf1e624ea4c878c9ebd95a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_hat1_Normal.png using Guid(a11d0fa4ebf1e624ea4c878c9ebd95a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aadda5223cfda655851a00956aa04fd') in 0.017830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 61.953094 seconds.
+  path: Assets/textures/timmiys texture/Materials/textured timmy_joints_BaseColor.mat
+  artifactKey: Guid(910fb706ff813834bb2922d60124812a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/Materials/textured timmy_joints_BaseColor.mat using Guid(910fb706ff813834bb2922d60124812a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36b1a4a81939bd2d81bf5fa5f2f0fd4') in 0.016379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 166.658941 seconds.
+  path: Assets/textures/timmiys texture/Materials/textured timmy_lambert2_BaseColor.mat
+  artifactKey: Guid(7cf0c35a9caeff349aa50fa8d2db4dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/Materials/textured timmy_lambert2_BaseColor.mat using Guid(7cf0c35a9caeff349aa50fa8d2db4dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34499abc4dbb50d73dfb76ec72dd80b') in 0.014034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 27.037622 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_lambert2_Normal.png
+  artifactKey: Guid(391faec4b7f9ff54690e4d1056dd8ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_lambert2_Normal.png using Guid(391faec4b7f9ff54690e4d1056dd8ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5476e7115ba858f584670d70ff166f') in 0.018434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 85.062827 seconds.
+  path: Assets/textures/timmiys texture/Materials/textured timmy_neck1_BaseColor.mat
+  artifactKey: Guid(e3e7cbb85bd2cc34aa387c15ae4658dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/Materials/textured timmy_neck1_BaseColor.mat using Guid(e3e7cbb85bd2cc34aa387c15ae4658dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a3feecbc586e60a05bc1612ff50c5f') in 0.016966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 39.529323 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_neck1_Normal.png
+  artifactKey: Guid(12fe0218de981d047ac1115f9e5ce08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_neck1_Normal.png using Guid(12fe0218de981d047ac1115f9e5ce08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e20000f6e4b723a9a122625cd4978fc') in 0.018919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 37.816679 seconds.
+  path: Assets/textures/timmiys texture/Materials/textured timmy_pants_BaseColor.mat
+  artifactKey: Guid(0d14ed4fb08a4a14b838ab156932d52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/Materials/textured timmy_pants_BaseColor.mat using Guid(0d14ed4fb08a4a14b838ab156932d52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce26e4b626bba1c7bc3f451ac224d60') in 0.013132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 30.023462 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_pants_Normal.png
+  artifactKey: Guid(b7ad19ec99d5f1f478ce9f455b1cdaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_pants_Normal.png using Guid(b7ad19ec99d5f1f478ce9f455b1cdaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01a9f56c8557dabf755c62e7bc1a503') in 0.019349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 51.567540 seconds.
+  path: Assets/textures/timmiys texture/Materials/textured timmy_shoe_BaseColor.mat
+  artifactKey: Guid(51dcb67694677684ab16eddda18c96c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/Materials/textured timmy_shoe_BaseColor.mat using Guid(51dcb67694677684ab16eddda18c96c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1354321e2a6ae8b5674965002dec5af') in 0.013578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 35.207629 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_shoe_Normal.png
+  artifactKey: Guid(953c4e0586dcca046b37b938a6d79519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_shoe_Normal.png using Guid(953c4e0586dcca046b37b938a6d79519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b883936495ba2d550efd845d11483f3b') in 0.020280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 42.869883 seconds.
+  path: Assets/textures/timmiys texture/Materials/textured timmy_skeleton_BaseColor.mat
+  artifactKey: Guid(dfbfcbc57ff903543a87909afc7750a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/Materials/textured timmy_skeleton_BaseColor.mat using Guid(dfbfcbc57ff903543a87909afc7750a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95352a0b5faa24b12a1d9fbf875dbb57') in 0.014561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 16.556710 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_skeleton_Normal.png
+  artifactKey: Guid(6137ac8cf79a12948b045b806d29fc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_skeleton_Normal.png using Guid(6137ac8cf79a12948b045b806d29fc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c949218dcd55358ef09386ec7b82d8b') in 0.018419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 97.661942 seconds.
+  path: Assets/textures/timmiys texture/Materials/textured timmy_sock_BaseColor.mat
+  artifactKey: Guid(5b3cbd0ae10d73b448dd391b3dc4493d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/Materials/textured timmy_sock_BaseColor.mat using Guid(5b3cbd0ae10d73b448dd391b3dc4493d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7795e57ae4cd7cefc361a67f823a66ae') in 0.016234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 64.438088 seconds.
+  path: Assets/textures/timmiys texture/Materials/textured timmy_torso_BaseColor.mat
+  artifactKey: Guid(ad93c09af9653d445842d68860e30462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/Materials/textured timmy_torso_BaseColor.mat using Guid(ad93c09af9653d445842d68860e30462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4bfc72c5cd8768224a8e23fca7c361f') in 0.013646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 17.644468 seconds.
+  path: Assets/textures/timmiys texture/textured timmy_torso_Normal.png
+  artifactKey: Guid(749d34d40b65caa458da3af9b553ef5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/timmiys texture/textured timmy_torso_Normal.png using Guid(749d34d40b65caa458da3af9b553ef5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d936702ceb6c19c3a0a73c0dfab57d') in 0.021552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000002301FD22CB0 doesn't match image D:\WireWineRain\WireWineRain\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\WireWineRain\WireWineRain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\WireWineRain\WireWineRain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.466 seconds
+Refreshing native plugins compatible for Editor in 3.83 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.925 seconds
+Domain Reload Profiling: 1387ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (213ms)
+		LoadAssemblies (286ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (925ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (362ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (248ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3575 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (33.1 KB). Loaded Objects now: 4157.
+Memory consumption went from 138.1 MB to 138.1 MB.
+Total: 3.246400 ms (FindLiveObjects: 0.381800 ms CreateObjectMapping: 0.099200 ms MarkObjects: 2.702300 ms  DeleteObjects: 0.062000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 125.140533 seconds.
+  path: Assets/Umbrella/Animations/Closing_Animation.fbx
+  artifactKey: Guid(c27ff62a02a5ffb4097d75202c692f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Umbrella/Animations/Closing_Animation.fbx using Guid(c27ff62a02a5ffb4097d75202c692f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c6322e193004e230b4bd35e999c37f') in 0.174696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 117
+========================================================================
+Received Import Request.
+  Time since last request: 12.383193 seconds.
+  path: Assets/Umbrella/Animations/Opening_Animation.fbx
+  artifactKey: Guid(2bc7175833024984883c8a8c532d25bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Umbrella/Animations/Opening_Animation.fbx using Guid(2bc7175833024984883c8a8c532d25bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c854af73cbdc0d09c935ec9a9d020b') in 0.066842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 117
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-0000023020314040 doesn't match image D:\WireWineRain\WireWineRain\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\WireWineRain\WireWineRain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\WireWineRain\WireWineRain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.446 seconds
+Refreshing native plugins compatible for Editor in 3.98 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.850 seconds
+Domain Reload Profiling: 1293ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (216ms)
+		LoadAssemblies (282ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (850ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (357ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (242ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3575 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (33.0 KB). Loaded Objects now: 4164.
+Memory consumption went from 139.8 MB to 139.8 MB.
+Total: 3.007900 ms (FindLiveObjects: 0.391800 ms CreateObjectMapping: 0.105200 ms MarkObjects: 2.447500 ms  DeleteObjects: 0.062300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 189.384140 seconds.
+  path: Assets/Umbrella/umbrella textures/Materials/wwr umbrella_dark_metal_handle_part_Height.mat
+  artifactKey: Guid(bd270f8122799a243ab964e1f406e048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Umbrella/umbrella textures/Materials/wwr umbrella_dark_metal_handle_part_Height.mat using Guid(bd270f8122799a243ab964e1f406e048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b26d6d80fe185e1651cfd32c50453c') in 0.074293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 182.591306 seconds.
+  path: Assets/Umbrella/umbrella textures/wwr umbrella_dark_metal_handle_part_Normal.png
+  artifactKey: Guid(f645442538f313a4e96d32cd3d40ead3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Umbrella/umbrella textures/wwr umbrella_dark_metal_handle_part_Normal.png using Guid(f645442538f313a4e96d32cd3d40ead3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d418eb30b96a92677fd19af4527485') in 0.026854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 75.777411 seconds.
+  path: Assets/Umbrella/umbrella textures/Materials/wwr umbrella_umberalla_cable_BaseColor.mat
+  artifactKey: Guid(6d16abee036289a43be2aa5d9bb8353c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Umbrella/umbrella textures/Materials/wwr umbrella_umberalla_cable_BaseColor.mat using Guid(6d16abee036289a43be2aa5d9bb8353c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ad5f52505e9adf00fad1a69ca42916') in 0.017264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 28.693396 seconds.
+  path: Assets/Umbrella/umbrella textures/wwr umbrella_umberalla_cable_Normal.png
+  artifactKey: Guid(93f75ceb87fd7a24ab6599f3f0825380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Umbrella/umbrella textures/wwr umbrella_umberalla_cable_Normal.png using Guid(93f75ceb87fd7a24ab6599f3f0825380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73e61b67f57f01aea3c6b409b7c29b5') in 0.024070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 63.931892 seconds.
+  path: Assets/Umbrella/umbrella textures/Materials/wwr umbrella_umberalla_thing_BaseColor.mat
+  artifactKey: Guid(67d5d1d409aa2f3498472b4b7b5d1fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Umbrella/umbrella textures/Materials/wwr umbrella_umberalla_thing_BaseColor.mat using Guid(67d5d1d409aa2f3498472b4b7b5d1fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732270820159b7a4261ba38794e47b57') in 0.016601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 26.516744 seconds.
+  path: Assets/Umbrella/umbrella textures/wwr umbrella_umberalla_thing_Normal.png
+  artifactKey: Guid(a5da8b463ac6bd94daafba818e7ce6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Umbrella/umbrella textures/wwr umbrella_umberalla_thing_Normal.png using Guid(a5da8b463ac6bd94daafba818e7ce6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074d96c11d19c6f13762d01b2e4aab75') in 0.027349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 96.047201 seconds.
+  path: Assets/Umbrella/umbrella textures/Materials/wwr umbrella_umberella_button_BaseColor.mat
+  artifactKey: Guid(47a98b22b13ce45489353f6b9f7337ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Umbrella/umbrella textures/Materials/wwr umbrella_umberella_button_BaseColor.mat using Guid(47a98b22b13ce45489353f6b9f7337ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcabe576ed92f7ac16b7a700f909d781') in 0.015475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 48.400267 seconds.
+  path: Assets/Umbrella/umbrella textures/wwr umbrella_umberella_button_Normal.png
+  artifactKey: Guid(e26df6ed565bf294887ac3a322d1bd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Umbrella/umbrella textures/wwr umbrella_umberella_button_Normal.png using Guid(e26df6ed565bf294887ac3a322d1bd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9121e8758bf7b8799301db876ff507e6') in 0.022410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 49.991850 seconds.
+  path: Assets/modles/wwr umbrella.fbx
+  artifactKey: Guid(7e1f5fc0ff3984948a25c3d721ff79e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modles/wwr umbrella.fbx using Guid(7e1f5fc0ff3984948a25c3d721ff79e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd41ad6b3c8437dbd84f5dc25f3f59db') in 0.068471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 31.071305 seconds.
+  path: Assets/Umbrella/umbrella textures/Materials/wwr umbrella_lighter_metal_handel_part_BaseColor.mat
+  artifactKey: Guid(4e024cad4d7fe3244b1c19d1988e43c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Umbrella/umbrella textures/Materials/wwr umbrella_lighter_metal_handel_part_BaseColor.mat using Guid(4e024cad4d7fe3244b1c19d1988e43c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5b7cd848fc1812a18ead78842c1df3') in 0.016146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 28.981034 seconds.
+  path: Assets/textures/building textures/Materials/ancient-sewer-stonework_albedo.mat
+  artifactKey: Guid(370a6572e6e59d74aab5d6559fe55606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/building textures/Materials/ancient-sewer-stonework_albedo.mat using Guid(370a6572e6e59d74aab5d6559fe55606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15cf5d75a2cc1a8a505d88b8dd0db02') in 0.017912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001041 seconds.
+  path: Assets/modles/wwr house 2.fbx
+  artifactKey: Guid(43db72e9529c63748bb5655d764245dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modles/wwr house 2.fbx using Guid(43db72e9529c63748bb5655d764245dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7b1940284334a4da4fe5799507b0be') in 0.082145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/modles/robotwineraingamehouse.fbx
+  artifactKey: Guid(6edd421a8225ac54d9ba4a95cc96d97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modles/robotwineraingamehouse.fbx using Guid(6edd421a8225ac54d9ba4a95cc96d97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b16ccc12abc830e06a600dd6996e35a') in 0.072206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe80c178848b706fa879db830bde2b73') in 0.002354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/modles/wwr lampost 2.fbx
+  artifactKey: Guid(5ccfc91eff2675945b3dd31513c15994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modles/wwr lampost 2.fbx using Guid(5ccfc91eff2675945b3dd31513c15994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1dfe59dee25678b53055724e7bdcb66') in 0.045629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/sprite/Health.png
+  artifactKey: Guid(55d9b3c581b8e1d4c84b7cad914d65d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Health.png using Guid(55d9b3c581b8e1d4c84b7cad914d65d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55c55ce495aa2e0330602400832400c') in 0.034204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/modles/wwr door.fbx
+  artifactKey: Guid(acff8dc698f1497439c975c2ee03984d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modles/wwr door.fbx using Guid(acff8dc698f1497439c975c2ee03984d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84fb08f920ffa0225d085d469b6a3a30') in 0.069985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/modles/wwr house 3.fbx
+  artifactKey: Guid(1d485fd7ee1b5dc49b4e2170300fcdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modles/wwr house 3.fbx using Guid(1d485fd7ee1b5dc49b4e2170300fcdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4392e7ec497b94bb8f25c71b32e1d7be') in 0.081783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/modles/wwr bench.fbx
+  artifactKey: Guid(62914650b5d53b14daf04d0a7159325d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modles/wwr bench.fbx using Guid(62914650b5d53b14daf04d0a7159325d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79de4976fee2376404d308f90f0166c2') in 0.147834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/modles/lambert2.mat
+  artifactKey: Guid(115c68d04ca1a2b40bebb11ead7a93fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modles/lambert2.mat using Guid(115c68d04ca1a2b40bebb11ead7a93fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a80b8f112b115b0da01703c2334994') in 0.015325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868ae7279cb8681e901fb13a12c8cb7e') in 0.028391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Materials/CityStreetRoadAsphaltTwoLaneWorn001_COL_2K.mat
+  artifactKey: Guid(0799a6af179ce724597cd51f870f53de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CityStreetRoadAsphaltTwoLaneWorn001_COL_2K.mat using Guid(0799a6af179ce724597cd51f870f53de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a4fe9768a1c8fd6a18beb5b236d94b') in 0.014779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
