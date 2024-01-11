@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO.Ports;
+using UnityEngine.SceneManagement;
 
 public class Umbrella : MonoBehaviour
 {
     [SerializeField] Animator UmbrellaAnim;
     bool isUmbrellaOpen;
-    
+    [SerializeField] GameObject UI;
+    [SerializeField] PlayerHealth ph;
 
     // Update is called once per frame
     void Update()
@@ -15,10 +17,6 @@ public class Umbrella : MonoBehaviour
         string umbrellaInput = SerialMagnets.incomingMsg;
         if(umbrellaInput != "")
         {
-            if(umbrellaInput == "0")
-            {
-                Debug.Log("Button");
-            }
             if (umbrellaInput == "1")
             {
                 isUmbrellaOpen = false;

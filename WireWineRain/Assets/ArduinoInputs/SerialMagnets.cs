@@ -16,7 +16,7 @@ public class SerialMagnets : MonoBehaviour
     [SerializeField] PlayerHealth ph;
     private static void DataThread()
     {
-        sp = new SerialPort("COM3", 9600);
+        sp = new SerialPort("COM5", 9600);
         sp.Open();
 
         while(true)

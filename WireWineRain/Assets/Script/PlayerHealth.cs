@@ -47,8 +47,9 @@ public class PlayerHealth : MonoBehaviour
         // Check if the UI is active and the player has died
         if (UI.activeSelf && shouldReloadScene)
         {
-            // Reload the scene when the 'P' key is pressed
-            if (Input.GetKeyDown(KeyCode.P))
+            
+                // Reload the scene when the 'P' key is pressed
+                if (Input.GetKeyDown(KeyCode.P))
             {
                 SceneManager.LoadScene("SampleScene");
             }
@@ -77,7 +78,7 @@ public class PlayerHealth : MonoBehaviour
     void Die()
     {
         // Add your logic for player death
-        Debug.Log("Player has died!");
+        //Debug.Log("Player has died!");
         timmySpeed.moveSpeed = 0f;
         timmySpeed.speedIncrement = 0f;
         Destroy(timmy);
@@ -95,5 +96,10 @@ public class PlayerHealth : MonoBehaviour
         {
             Die(); // Destroy the player when colliding with "EndHouse"
         }
+    }
+
+    public bool GetShouldRelodeScene()
+    {
+        return shouldReloadScene;
     }
 }
